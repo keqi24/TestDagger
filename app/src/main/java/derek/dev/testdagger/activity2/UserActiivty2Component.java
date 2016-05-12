@@ -1,7 +1,7 @@
-package derek.dev.testdagger;
+package derek.dev.testdagger.activity2;
 
 import dagger.Component;
-import derek.dev.testdagger.app.AppComponent;
+import derek.dev.testdagger.ActivityScope;
 import derek.dev.testdagger.user.UserComponent;
 
 /**

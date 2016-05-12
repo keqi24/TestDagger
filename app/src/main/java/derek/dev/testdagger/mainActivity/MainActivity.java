@@ -1,9 +1,8 @@
-package derek.dev.testdagger;
+package derek.dev.testdagger.mainActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -12,10 +11,11 @@ import android.view.MenuItem;
 
 import javax.inject.Inject;
 
+import derek.dev.testdagger.R;
+import derek.dev.testdagger.activity1.UserActivity1;
 import derek.dev.testdagger.app.DApplication;
 import derek.dev.testdagger.dependency.ActivityManager;
 import derek.dev.testdagger.dependency.NetworkManager;
-import okhttp3.OkHttpClient;
 
 public class MainActivity extends AppCompatActivity {
 

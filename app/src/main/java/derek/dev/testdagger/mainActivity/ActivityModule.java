@@ -1,4 +1,4 @@
-package derek.dev.testdagger;
+package derek.dev.testdagger.mainActivity;
 
 import android.app.Application;
 
